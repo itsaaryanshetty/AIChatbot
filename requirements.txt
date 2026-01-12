@@ -8,6 +8,7 @@ langchain-huggingface>=0.1.0
 langchain-core>=0.3.0
 python-dotenv>=1.0.0
 duckduckgo-search>=6.0.0
+ddgs>=0.1.0
 requests>=2.31.0
 google-auth>=2.23.0
 google-auth-oauthlib>=1.1.0
