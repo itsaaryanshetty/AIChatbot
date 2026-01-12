@@ -1,0 +1,34 @@
+# Create .gitignore with proper content
+@"
+# Environment variables
+.env
+.env.local
+
+# Credentials
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual Environment
+.aienv/
+aienv/
+venv/
+env/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+"@ | Out-File -FilePath .gitignore -Encoding utf8
